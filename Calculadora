@@ -2,16 +2,16 @@
 #include <cmath>
 using namespace std;
 
-float sumar(float a, float b ){
+double sumar(double a, double b ){
  return a + b;
 }
-float restar (float a, float b){
+double restar (double a, double b){
  return a-b;
 }
-float multiplicar(float a, float b){
+double multiplicar(double a, double b){
  return a*b;
 }
-float divicion(float a, float b){
+double divicion(double a, double b){
  if (b !=0 )
   return a/b;
 else{
@@ -19,8 +19,44 @@ else{
     return 0;
    }
 }
-float potencia(float base, float exponente){
+double raizCuadrada(double a) {
+if (a>=){
+return sqrt(a);
+} else {
+cout << "Error, No se puede calcular la raiz cuadrada de un numero negativo"<<endl;
+return 0;
+   }
+}
+double potencia(double base, double exponente){
   return pow(base, exponente);
 }
 
+int main()
+double num1, num2;
+int opcion;
+bool continuar = true;
 
+while (continuar){
+cout <<"****************************"<<endl;
+cout <<"****************************"<<endl;
+cout <<"**     CALCULADORA    **"<<endl;
+cout <<"****************************"<<endl;
+cout <<"**     SUMAR     **   1   **"<<endl;
+cout <<"****************************"<<endl;
+cout <<"**    RESTAR     **   2   **"<<endl;
+cout <<"****************************"<<endl;
+cout <<"**  MULTIPLICAR  **   3   **"<<endl;
+cout <<"****************************"<<ednl;
+cout <<"**    DIVIDIR    **   4   **"<<endl;
+cout <<"****************************"<<endl;
+cout <<"** RAIZ CUADRADA **   5   **"<<endl;
+cout <<"****************************"<<endl;
+cout <<"**   POTENCIA    **   6   **"<<endl;
+cout <<"****************************"<<endl;
+cout <<"**     SALIR     **   7   **"<<endl;
+cout <<"****************************"<<endl;
+cout <<"**  SELECCIONE UNA OPCION **"<<endl;
+cout <<"****************************"<<endl;  
+cout <<"              ";
+cin >> opcion;
+cout <<"****************************"<<endl;

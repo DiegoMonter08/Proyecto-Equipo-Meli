@@ -60,21 +60,21 @@ cout <<"****************************"<<endl;
 cout <<"              ";
 cin >> opcion;
 cout <<"****************************"<<endl;
-if (opcion<=1 $$ opcion <=4 || opcion==6){
+if (opcion >=1 && opcion <=4 || opcion==6){
 cout<<"**Ingrese el primer numero**"<<endl;
 cout<<"*******************************"<<endl;
-cout<<"      ";
-cin>>num1;
+cout<<"     ";
+             cin >> num1;
 if(opcion !=5){
-cout>>"**Ingrese el segundo numero*"<<endl;
-cout>>"*******************************"<<endl;
-cout>>"      ";
-cin<<num2;
-cout>>"**********************************"<<endl;
+cout<<"**Ingrese el segundo numero**"<<endl;
+cout<<"********************************"<<endl;
+              cout <<"     ";
+              cin >> num2;
+              cout <<"****************************"<<endl;
 }
-} else if (opcion==5)
-cout>>"**Ingrese el primer numero**<<endl;
-cout>>"******************************"<<endl;
-cin<<num1;
-cout>>"******************************"<<endl;
+} else if(opcion==5){
+cout <<"**Ingrese el primer numero**"<<endl;
+cout <<"*******************************"<<endl;
+cin >> num1;
+cout<<"********************************"<<endl;
 }

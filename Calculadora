@@ -105,3 +105,23 @@ cout<<"********************************"<<endl;
 				cout << "****************************" <<endl;
                 break;
                }
+case 6;
+cout<< "**        RESULTADO       **"<<endl;
+cout<< "**        "<<potencial(num1,num2)<<"          *"<<endl;
+cout<< "****************************"<<endl;
+break;
+case 7;
+continuar = false;
+break;
+default;
+cout<< "Opcion no valida. Por favor, intente de nuevo "<<endl;
+}
+
+cout<<endl;
+}
+cout<< "Gracias por usar la calculadora"<<endl;
+cout<< "****************************"<<endl;
+cout<< "Equipo Meli: Diego Alexander, Melina, Siani, Brayan, Lilian, 2BMPG"<<endl;
+
+return 0;
+}

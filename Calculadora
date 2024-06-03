@@ -78,3 +78,30 @@ cout <<"*******************************"<<endl;
 cin >> num1;
 cout<<"********************************"<<endl;
 }
+
+        switch (opcion) {
+            case 1:
+                cout << "**        Resultado       **"<< endl;
+				cout<< "**           "<< sumar(num1, num2)<<"           **" << endl;
+				cout << "****************************" <<endl;
+                break;
+            case 2:
+                cout <<"**        Resultado       **"<< endl;
+				cout<< "**           " << restar(num1, num2)<<"           **" << endl;
+				cout << "****************************" <<endl;
+                break;
+            case 3:
+                cout << "**        Resultado       **"<< endl;
+				cout << "**          " << multiplicar(num1, num2) <<"          **"<< endl;
+				cout << "****************************" <<endl;
+                break;
+            case 4:
+                cout << "**        Resultado       **"<< endl;
+				cout << "**            "<< dividir(num1, num2)<<"           **" << endl;
+				cout << "****************************" <<endl;
+                break;
+            case 5:
+                cout << "**        Resultado       **"<< endl;
+				cout << "**        "<<raizCuadrada(num1) <<"         **" << endl;
+				cout << "****************************" <<endl;
+                break;

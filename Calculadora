@@ -20,7 +20,7 @@ else{
    }
 }
 double raizCuadrada(double a) {
-if (a>=){
+if (a>=0){
 return sqrt(a);
 } else {
 cout << "Error, No se puede calcular la raiz cuadrada de un numero negativo"<<endl;
@@ -31,7 +31,7 @@ double potencia(double base, double exponente){
   return pow(base, exponente);
 }
 
-int main()
+int main() {
 double num1, num2;
 int opcion;
 bool continuar = true;
@@ -46,7 +46,7 @@ cout <<"****************************"<<endl;
 cout <<"**    RESTAR     **   2   **"<<endl;
 cout <<"****************************"<<endl;
 cout <<"**  MULTIPLICAR  **   3   **"<<endl;
-cout <<"****************************"<<ednl;
+cout <<"****************************"<<endl;
 cout <<"**    DIVIDIR    **   4   **"<<endl;
 cout <<"****************************"<<endl;
 cout <<"** RAIZ CUADRADA **   5   **"<<endl;
@@ -78,42 +78,42 @@ cout <<"*******************************"<<endl;
 cin >> num1;
 cout<<"********************************"<<endl;
 }
-        switch (opcion) {
-            case 1:
-                cout << "**        Resultado       **"<< endl;
-				cout<< "**           "<< sumar(num1, num2)<<"           **" << endl;
-				cout << "****************************" <<endl;
-                break;
-            case 2:
-                cout <<"**        Resultado       **"<< endl;
-				cout<< "**           " << restar(num1, num2)<<"           **" << endl;
-				cout << "****************************" <<endl;
-                break;
-            case 3:
-                cout << "**        Resultado       **"<< endl;
-				cout << "**          " << multiplicar(num1, num2) <<"          **"<< endl;
-				cout << "****************************" <<endl;
-                break;
-            case 4:
-                cout << "**        Resultado       **"<< endl;
-				cout << "**            "<< dividir(num1, num2)<<"           **" << endl;
-				cout << "****************************" <<endl;
-                break;
-            case 5:
-                cout << "**        Resultado       **"<< endl;
-				cout << "**        "<<raizCuadrada(num1) <<"         **" << endl;
-				cout << "****************************" <<endl;
-                break;
-               }
-case 6;
+switch (opcion) {
+case 1:
+cout << "**        Resultado       **"<< endl;
+cout<< "**           "<< sumar(num1, num2)<<"           **" << endl;
+cout << "****************************" <<endl;
+break;
+case 2:
+cout <<"**        Resultado       **"<< endl;
+cout<< "**           " << restar(num1, num2)<<"           **" << endl;
+cout << "****************************" <<endl;
+break;
+case 3:
+cout << "**        Resultado       **"<< endl;
+cout << "**          " << multiplicar(num1, num2) <<"          **"<< endl;
+cout << "****************************" <<endl;
+break;
+case 4:
+cout << "**        Resultado       **"<< endl;
+cout << "**            "<< divicion(num1, num2)<<"           **" << endl;
+cout << "****************************" <<endl;
+break;
+case 5:
+cout << "**        Resultado       **"<< endl;
+cout << "**        "<<raizCuadrada(num1) <<"         **" << endl;
+cout << "****************************" <<endl;
+break;
+
+case 6:
 cout<< "**        RESULTADO       **"<<endl;
-cout<< "**        "<<potencial(num1,num2)<<"          *"<<endl;
+cout<< "**        "<<potencia(num1,num2)<<"          *"<<endl;
 cout<< "****************************"<<endl;
 break;
-case 7;
+case 7:
 continuar = false;
 break;
-default;
+default:
 cout<< "Opcion no valida. Por favor, intente de nuevo "<<endl;
 }
 
